@@ -1471,7 +1471,6 @@ qhull:x64-uwp=ignore
 qpid-proton:arm-uwp=fail
 qpid-proton:x64-uwp=fail
 qpid-proton:x64-windows-static=fail
-qscintilla:x64-linux=fail
 #qt5-activeqt is skipped because it conflicts with qt5-declarative:
 # Starting package 142/820: qt5-declarative:x86-windows
 # Building package qt5-declarative[core]:x86-windows...
