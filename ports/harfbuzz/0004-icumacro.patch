@@ -1,0 +1,13 @@
+diff --git a/src/hb-icu.cc b/src/hb-icu.cc
+index e98908d..e890d61 100644
+--- a/src/hb-icu.cc
++++ b/src/hb-icu.cc
+@@ -53,7 +53,7 @@
+ 
+ /* ICU doesn't do-while(0) around their statements.  Ugh!
+  * https://unicode-org.atlassian.net/browse/CLDR-13027 */
+-#define HB_ICU_STMT(S) do { S } while (0)
++#define HB_ICU_STMT(S) do { S; } while (0)
+ 
+ hb_script_t
+ hb_icu_script_to_script (UScriptCode script)

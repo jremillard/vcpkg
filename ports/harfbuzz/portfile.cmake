@@ -14,6 +14,7 @@ vcpkg_from_github(
         find-package-freetype-2.patch
         # This patch is required for propagating the full list of dependencies from glib
         glib-cmake.patch
+        0004-icumacro.patch
 )
 
 file(READ ${SOURCE_PATH}/CMakeLists.txt _contents)
