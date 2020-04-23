@@ -1,0 +1,22 @@
+Source: mapnik
+Version: 3.0.23
+Homepage: https://mapnik.org/
+Description: mapnik creates pixel-perfect image output with lightning-fast cartographic algorithms.
+Build-Depends: libjpeg-turbo, tiff, libpng, libwebp, freetype[bzip2,png], icu, libxml2, harfbuzz[icu], proj4[database], boost-locale[icu], boost-regex[icu],  boost-gil, boost-geometry, boost-property-tree, boost-filesystem, boost-system, boost-spirit, boost-program-options, boost-assign, boost-bimap, mapbox-variant
+
+Feature: postgresql
+Description: PostgreSQL data source
+Build-Depends: libpq
+
+Feature: cairo
+Description: Cairo pdf, svg, ps outputs.
+Build-Depends: cairomm
+
+Feature: gdal
+Description: GDAL data source
+Build-Depends: gdal
+
+Feature: sqlite3
+Description: sqlite3 data source
+Build-Depends: sqlite3
+
