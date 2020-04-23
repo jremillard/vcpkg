@@ -15,6 +15,7 @@ vcpkg_from_github(
         # This patch is required for propagating the full list of dependencies from glib
         glib-cmake.patch
         0004-icumacro.patch
+        0005-icumakelistdebug.patch
 )
 
 file(READ ${SOURCE_PATH}/CMakeLists.txt _contents)
@@ -90,3 +91,4 @@ endif()
 file(INSTALL ${SOURCE_PATH}/COPYING DESTINATION ${CURRENT_PACKAGES_DIR}/share/harfbuzz RENAME copyright)
 
 vcpkg_test_cmake(PACKAGE_NAME harfbuzz)
+
