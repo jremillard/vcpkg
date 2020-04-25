@@ -1,0 +1,5 @@
+Source: protozero
+Version: 1.6.8
+Homepage: https://github.com/mapbox/protozero
+Description: Minimalistic protocol buffer decoder and encoder in C++.
+Build-Depends:
