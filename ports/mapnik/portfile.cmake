@@ -38,7 +38,7 @@ vcpkg_from_github(
     REF v3.0.23
     SHA512 004429defd3047601b63c28bedd57d701ff88cdfb910a9958f4a10a1ac032d4d13316372122aef06eda60f2e4f67600b8842577db455f8c970009a0e86c5c1cf
     HEAD_REF master
-    PATCHES 0001-CMakeFiles.patch
+    PATCHES 0001-CMakeFiles.patch 0002-sqlitepixelwidth.patch
 )
 
 # Check if one or more features are a part of a package installation.

@@ -49,7 +49,7 @@ index 0000000..f07a5ce
 +  add_compile_options(/MP)
 +  add_compile_options(-bigobj) #added by @am2222
 +  add_compile_definitions(ACCEPT_USE_OF_DEPRECATED_PROJ_API_H=1) #added by @am2222 for proj4 compile
-+
++  add_definitions(-DMAPNIK_THREADSAFE)
 +
 +endif()
 +
